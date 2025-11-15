@@ -40,7 +40,7 @@ interface SignupFormState {
   errorMessage: string;
 }
 
-export function SignupForm() {
+function SignupForm() {
   const [form, setForm] = useState({ email: "", password: "" });
   const [state, setState] = useState<SignupFormState>({
     isLoading: false,

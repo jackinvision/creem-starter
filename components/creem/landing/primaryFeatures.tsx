@@ -75,7 +75,7 @@ export function PrimaryFeatures() {
             Everything you need to run your books.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-neutral-100">
-            Well everything you need if you aren't that picky about minor
+            Well everything you need if you aren&apos;t that picky about minor
             details like tax compliance.
           </p>
 

@@ -30,7 +30,7 @@ export const CTA = () => {
               </h2>
               <p className="mt-4 max-w-[26rem] text-center mx-auto  text-base/6 text-neutral-200">
                 <Balancer>
-                  Don't waste time setting up payments, emails, or analytics; we've got it all covered.
+                  Don&apos;t waste time setting up payments, emails, or analytics; we&apos;ve got it all covered.
                 </Balancer>
               </p>
 

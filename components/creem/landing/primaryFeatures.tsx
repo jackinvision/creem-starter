@@ -136,13 +136,10 @@ export function PrimaryFeatures() {
                       </p>
                     </div>
                     <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-neutral-50 shadow-xl shadow-neutral-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-                      <Image
-                        className="w-full"
-                        src={feature.image}
-                        alt=""
-                        priority
-                        sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
-                      />
+                      {/* Placeholder for feature image */}
+                      <div className="w-full aspect-video bg-gradient-to-br from-neutral-800 to-neutral-900 flex items-center justify-center">
+                        <span className="text-neutral-500 font-mono text-sm">{feature.title}</span>
+                      </div>
                     </div>
                   </Tab.Panel>
                 ))}
